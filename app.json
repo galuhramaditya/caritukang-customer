@@ -1,0 +1,12 @@
+{
+  "name": "caritukang",
+  "displayName": "caritukang",
+  "expo": {
+    "name": "caritukang",
+    "slug": "caritukang",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
