@@ -6,7 +6,7 @@ import { Actions } from 'react-native-router-flux';
 const MitraOtwPage = () => {
 
     return (
-        <ScrollView style={{ backgroundColor: "white" }} onTouchStart={() => setTimeout(() => Actions.replace("payment"), 30000)}>
+        <ScrollView style={{ backgroundColor: "white" }}>
             <Image source={require("../../img/maps.png")} resizeMode="cover" />
             <View style={styles.details}>
                 <View style={{ width: 50, alignSelf: "center" }}>
@@ -75,7 +75,7 @@ const MitraOtwPage = () => {
                         <Text style={[{ marginLeft: 10, color: "black" }, styles.f_m]}>repair</Text>
                     </View>
                     <Divider width={1} style={{ marginVertical: 20 }} />
-                    <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
+                    <View style={{ flexDirection: "row", justifyContent: "space-between" }} onTouchStart={() => setTimeout(() => Actions.replace("payment"), 5000)}>
                         <Text style={{ color: "#2E86DE" }}>See Details</Text>
                         <Icon name="arrow-right-alt" />
                     </View>

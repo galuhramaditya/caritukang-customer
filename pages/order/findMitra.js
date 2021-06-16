@@ -12,7 +12,7 @@ const FindMitra = ({ isFindMitraOpen, setIsFindMitraOpen }) => {
             <StatusBar hidden={isFindMitraOpen} />
             {
                 isLoading ?
-                    <View onTouchStart={() => setTimeout(() => setIsLoading(false), 15000)}>
+                    <View onTouchStart={() => setTimeout(() => setIsLoading(false), 5000)}>
                         <ActivityIndicator size="large" animating={true} color="black" />
                         <Text style={{ marginTop: 10, color: "black" }}>Mencari mitra..</Text>
                     </View>

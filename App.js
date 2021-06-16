@@ -16,7 +16,7 @@ export default function App() {
         <Scene key="register" component={RegisterPage} title="Daftar" back />
         <Scene key="login" component={LoginPage} title="Login" back />
         <Scene key="home" component={HomePage} hideNavBar />
-        <Scene key="payment" component={PaymentPage} />
+        <Scene key="payment" component={PaymentPage} title="Payment" />
         <Scene key="mitraOtw" component={MitraOtwPage} hideNavBar />
         <Scene key="order" component={OrderPage} title="Service Description" back />
       </Stack>
