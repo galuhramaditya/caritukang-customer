@@ -9,10 +9,9 @@ const AddressDetails = ({ styles }) => {
             <View style={[{ width: 250, justifyContent: "space-evenly" }, styles.paddingHorizontal]}>
                 <Text style={[styles.bold, styles.f_l]}>Home</Text>
                 <Text numberOfLines={1}>25A, Jalan Danau Ranau, Sawojajar, Kec. Bojong Soang</Text>
-                <Text style={[{ color: "#aaa" }, styles.f_s]}>Add floor / unit number</Text>
+                <Text style={[{ color: "#aaa" }, styles.f_s]}>-</Text>
                 <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
-                    <Text style={[{ color: "#aaa" }, styles.f_s]}>Add note</Text>
-                    <Icon name="edit" color="#2E86DE" size={12} />
+                    <Text style={[{ color: "#aaa" }, styles.f_s]}>-</Text>
                 </View>
             </View>
         </View>

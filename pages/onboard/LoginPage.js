@@ -16,7 +16,7 @@ const LoginPage = () => {
                 <Text>Password</Text>
                 <Input containerStyle={{ paddingHorizontal: 0 }} secureTextEntry={true} />
                 <View>
-                    <Button title="Daftar" onPress={() => Actions.replace("home")} />
+                    <Button title="Login" onPress={() => Actions.replace("home")} />
                 </View>
                 <Text style={{ textAlign: "center", marginTop: 10 }}>Lupa password? klik disini</Text>
             </View>

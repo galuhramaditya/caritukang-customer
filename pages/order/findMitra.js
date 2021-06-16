@@ -1,18 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { useState } from 'react';
 import { ActivityIndicator, Button, Image, StyleSheet, Text, View } from 'react-native';
 import { Icon, Overlay } from 'react-native-elements';
 import { Actions } from 'react-native-router-flux';
 
 const FindMitra = ({ isFindMitraOpen, setIsFindMitraOpen }) => {
-    const isLoading = false
+    const [isLoading, setIsLoading] = useState(true)
 
     return (
         <Overlay isVisible={isFindMitraOpen}>
             <StatusBar hidden={isFindMitraOpen} />
             {
                 isLoading ?
-                    <View>
+                    <View onTouchStart={() => setTimeout(() => setIsLoading(false), 15000)}>
                         <ActivityIndicator size="large" animating={true} color="black" />
                         <Text style={{ marginTop: 10, color: "black" }}>Mencari mitra..</Text>
                     </View>

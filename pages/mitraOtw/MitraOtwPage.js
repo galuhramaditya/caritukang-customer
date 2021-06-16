@@ -6,7 +6,7 @@ import { Actions } from 'react-native-router-flux';
 const MitraOtwPage = () => {
 
     return (
-        <ScrollView style={{ backgroundColor: "white" }}  onTouchStart={() => setTimeout(() => Actions.replace("payment"), 5000)}>
+        <ScrollView style={{ backgroundColor: "white" }} onTouchStart={() => setTimeout(() => Actions.replace("payment"), 30000)}>
             <Image source={require("../../img/maps.png")} resizeMode="cover" />
             <View style={styles.details}>
                 <View style={{ width: 50, alignSelf: "center" }}>

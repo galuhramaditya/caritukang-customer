@@ -18,7 +18,7 @@ const Banner = () => {
                 </View>
                 <View style={styles.greetingText}>
                     <Text style={{ color: "white" }}>Hi,</Text>
-                    <Text style={{ color: "white" }}>Steven</Text>
+                    <Text style={{ color: "white" }}>Fitriono</Text>
                 </View>
                 <OVO />
             </View>
